@@ -1,9 +1,9 @@
 #!/bin/sh
 
 #
-# WARNING WARNING WARNING WARNING
-# This file is managed by HSMM-Pi.
-# Manual changes to this file WILL BE OVERWRITTEN
+
+# This file is managed by Solar-Nexus.
+
 #
 
 /bin/ping -I {wifi_adapter_name} -c 1 -s 21 -p 574952454C455353204E4F4445 0.0.0.0
