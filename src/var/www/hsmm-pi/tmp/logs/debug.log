@@ -1,0 +1,20 @@
+2014-04-05 17:48:58 Notice: Notice (8): Undefined index: NetworkSetting in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/Controller/WifiScanController.php, line 22]
+Trace:
+WifiScanController::get_wifi_networks() - APP/Controller/WifiScanController.php, line 22
+WifiScanController::index() - APP/Controller/WifiScanController.php, line 8
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 110
+
+2014-04-05 17:49:22 Notice: Notice (8): Undefined index: NetworkSetting in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/Controller/WifiScanController.php, line 22]
+Trace:
+WifiScanController::get_wifi_networks() - APP/Controller/WifiScanController.php, line 22
+WifiScanController::index() - APP/Controller/WifiScanController.php, line 8
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 110
+

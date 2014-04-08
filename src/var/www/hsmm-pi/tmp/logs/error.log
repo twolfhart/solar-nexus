@@ -382,3 +382,23 @@ Stack Trace:
 #3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-05 00:34:20 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/View/NetworkSettings/edit.ctp, line 139]
+2014-04-05 00:34:20 Error: [InternalErrorException] Internal Server Error
+Request URL: /hsmm-pi/network_settings/edit/1
+Stack Trace:
+#0 /usr/share/php/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 139)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 139, Array)
+#2 /usr/share/php/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/pi/hsmm-p...', 139, Array)
+#3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-08 16:25:23 Error: Fatal Error (4): syntax error, unexpected '?>', expecting function (T_FUNCTION) in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/Controller/StatusController.php, line 117]
+2014-04-08 16:25:23 Error: [InternalErrorException] Internal Server Error
+Request URL: /hsmm-pi/status
+Stack Trace:
+#0 /usr/share/php/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 117)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 117, Array)
+#2 /usr/share/php/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/pi/hsmm-p...', 117, Array)
+#3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

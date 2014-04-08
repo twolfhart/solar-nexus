@@ -1,4 +1,9 @@
+
 <?php
+/* This appears to be a regex validator for the various entered information on the NetworkSettings page
+ * 
+ * */
+
 class NetworkSetting extends AppModel {
 
   public $validate = array(

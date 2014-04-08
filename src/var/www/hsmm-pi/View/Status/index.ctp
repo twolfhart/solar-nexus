@@ -79,7 +79,7 @@
 	<strong>Warning!</strong>.  There are no mesh links in range.  It's a bit quiet around here.
       </div>
       <?php } ?>
-      <p><h3>Mesh Services</h3></p>
+     <!-- <p><h3>Mesh Services</h3></p>
       <?php
 	 if ($mesh_services != NULL && sizeof($mesh_services) > 0) {
       ?>
@@ -103,7 +103,7 @@
       <div>
 	There are no mesh services being announced at this time.
       </div> 
-      <?php } ?>
+      <?php } ?> -->
 
 </div>
 <!-- Modal -->

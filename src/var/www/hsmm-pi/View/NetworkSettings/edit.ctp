@@ -17,23 +17,6 @@
       document.getElementById('lan').style.display = "none";
     }
   }
-  function change_security_mode(m) {
-    if (m.value == "WEP") {
-      document.getElementById('wep').style.display = "block";
-      document.getElementById('wpa').style.display = "none";
-      document.getElementById('wpa_two').style.display = "none";
-    } else if (m.value == "WPA") {
-      document.getElementById('wpa').style.display = "block";
-      document.getElementById('wep').style.display = "none";
-      document.getElementById('wpa_two').style.display = "none";
-    }
-      else if (m.value == "WPA_TWO") {
-      document.getElementById('wpa_two').style.display = "block";
-      document.getElementById('wep').style.display = "none";
-      document.getElementById('wpa').style.display = "none";
-    }
-  }
-
 </script>
 
 <?php
@@ -132,11 +115,15 @@ echo $this->Form->input('mesh_olsrd_secure_key', array('label' => __('OLSRD Secu
       <?php
 echo $this->Form->input('ap_on_off', array('label' => __('Access Point Mode'), 'type' => 'checkbox'));
 echo $this->Form->input('ap_name', array('label' => __('Access Point SSID')));
-echo $this->Form->input('ap_security_on_off', array('label' => __('Access Point Security'), 'type' => 'checkbox'));
+echo $this->Form->input('ap_ip', array('label' => __('Access Point IP Address')));
+echo $this->Form->input('ap_dhcp_server', array('label' => __('DHCP Server'), 'type' => 'checkbox'));
+echo $this->Form->input('ap_dhcp_start', array('label' => __('DHCP Start')));
+echo $this->Form->input('ap_dhcp_end', array('label' => __('DHCP End')));
+echo $this->Form->input('ap_security_on_off', array('label' => __('Access Point Security On'), 'type' => 'checkbox'));
 echo $this->Form->input('ap_security_type', 
 			array(
 			      'label' => __('Security Type'),
-			      'options' => array('WEP'=>'WEP','WPA'=>'WPA','WPA2'=>'WPA_TWO'),
+			      'options' => array('WEP'=>'WEP','WPA'=>'WPA','WPA_TWO'=>'WPA2'),
                               'onchange' => 'change_security_mode(this)',
 			      )
 			);
