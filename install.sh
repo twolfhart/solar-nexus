@@ -21,6 +21,7 @@ sudo apt-get upgrade -y
 sudo apt-get install -y \
     apache2 \
     php5 \
+    sqlite3 \
     sqlite \
     php-pear \
     php5-sqlite  \
@@ -29,6 +30,8 @@ sudo apt-get install -y \
     make \
     bison \
     flex \
+    hostapd \
+    arptables \
 #    gpsd \
 #    gpsd-clients \
 #    libnet-gpsd3-perl \
