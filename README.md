@@ -1,6 +1,6 @@
 Solar_Nexus
 
-The Solar-Nexus project is a fork of the HSMM-Pi project in which certain features are added:
+The Solar-Nexus project is a fork(most likely not 'forked' correctly according to some reading I just did) of the HSMM-Pi by github.com/urlgrey/hsmm-pi project in which certain features are added for purposes of a school project a small team of out final project need:
 
 1) Access Point ability:
 	This feature uses two wiresless devices on non-gateway nodes, allowing users to use security and the ability to be forwarded on to the Ad Hoc mesh which will use a few techniques to obscure itself from non-node connections. This at least gives some basic security measures.
