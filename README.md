@@ -1,7 +1,7 @@
 Solar_Nexus
 Solar Power Wireless Mesh/Access Points
 
-The Solar-Nexus project is a fork(update:most likely not 'forked' correctly according to some reading I just did on how to correctly fork projects on Github) of the HSMM-Pi by github.com/urlgrey/hsmm-pi project. We add certain features for purposes of meeting more specific project requirements:
+The Solar-Nexus project is a fork(update:most likely I borked the fork according to some reading I just did on how to correctly fork projects on Github) of the HSMM-Pi project by github.com/urlgrey/hsmm-pi. We add certain features for purposes of meeting more specific project requirements:
 
 1) Access Point ability:
 	This feature uses two wireless devices(wlan0/wlan1) and routes the devices together using iptables on non-gateway(no ethernet) nodes, partly for the purpose of using security features and the ability to be forwarded on to the Ad Hoc mesh. The Ad Hoc will both be able to use the OLSR routing protocol and allow the use a few techniques to obscure itself from non-node connections. This at least gives some basic security measures. This also allows for the use of expanding the possibilites with Model A versions of the Raspberry Pi and take advantage of its lower expense and lower power consumption. 
