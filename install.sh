@@ -6,8 +6,10 @@
 # Purpose: This script will configure a newly-imaged Raspberry Pi running 
 #   Raspbian Wheezy 2013-07-26 with the dependencies and HSMM-Pi components.
 #
+# Ammended by Tremaine Hart,Matt Johnson, Terry Travers for repurposing to a school project
+# 4/01/14
 
-PROJECT_HOME=${HOME}/hsmm-pi
+PROJECT_HOME=${HOME}/solar-nexus
 
 cd ${HOME}
 
@@ -18,6 +20,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # Install Web Server deps
+# Commented out GPS stuff since we're not going to use it at the moment
 sudo apt-get install -y \
     apache2 \
     php5 \
@@ -43,7 +46,7 @@ sudo pear install cakephp/CakePHP
 
 # Checkout the HSMM-Pi project
 if [ ! -e ${PROJECT_HOME} ]; then
-    git clone https://github.com/urlgrey/hsmm-pi.git
+    git clone https://github.com/twolfhart/solar-nexus.git
 else
     cd ${PROJECT_HOME}
     git pull
