@@ -402,3 +402,79 @@ Stack Trace:
 #3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-04-11 03:33:04 Error: [NotFoundException] Invalid setting
+Request URL: /hsmm-pi/network_settings/edit/2
+Stack Trace:
+#0 [internal function]: NetworkSettingsController->edit('2')
+#1 /usr/share/php/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(NetworkSettingsController), Array)
+#2 /usr/share/php/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/share/php/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NetworkSettingsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/pi/hsmm-pi/src/var/www/hsmm-pi/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-11 03:36:31 Error: [NotFoundException] Invalid setting
+Request URL: /hsmm-pi/network_settings/edit/2
+Stack Trace:
+#0 [internal function]: NetworkSettingsController->edit('2')
+#1 /usr/share/php/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(NetworkSettingsController), Array)
+#2 /usr/share/php/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#3 /usr/share/php/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(NetworkSettingsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/pi/hsmm-pi/src/var/www/hsmm-pi/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-04-11 03:37:51 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/View/Layouts/default.ctp, line 149]
+2014-04-11 03:37:51 Error: [InternalErrorException] Internal Server Error
+Request URL: /hsmm-pi/status
+Stack Trace:
+#0 /usr/share/php/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 149, Array)
+#2 /usr/share/php/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/pi/hsmm-p...', 149, Array)
+#3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 03:38:05 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/View/Layouts/default.ctp, line 149]
+2014-04-11 03:38:05 Error: [InternalErrorException] Internal Server Error
+Request URL: /hsmm-pi/status
+Stack Trace:
+#0 /usr/share/php/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 149, Array)
+#2 /usr/share/php/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/pi/hsmm-p...', 149, Array)
+#3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 03:38:29 Error: Fatal Error (4): syntax error, unexpected '?>' in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/View/Layouts/default.ctp, line 149]
+2014-04-11 03:38:29 Error: [InternalErrorException] Internal Server Error
+Request URL: /hsmm-pi/status
+Stack Trace:
+#0 /usr/share/php/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 149)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 149, Array)
+#2 /usr/share/php/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/pi/hsmm-p...', 149, Array)
+#3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 03:41:00 Error: Fatal Error (4): syntax error, unexpected '*' in [/home/pi/hsmm-pi/src/var/www/hsmm-pi/View/Layouts/default.ctp, line 141]
+2014-04-11 03:41:00 Error: [InternalErrorException] Internal Server Error
+Request URL: /hsmm-pi/status
+Stack Trace:
+#0 /usr/share/php/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 141)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/pi/hsmm-p...', 141, Array)
+#2 /usr/share/php/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/pi/hsmm-p...', 141, Array)
+#3 /usr/share/php/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-11 11:26:00 Error: [MissingControllerException] Controller class PowerSettingsController could not be found.
+Exception Attributes: array (
+  'class' => 'PowerSettingsController',
+  'plugin' => NULL,
+)
+Request URL: /hsmm-pi/power_settings
+Stack Trace:
+#0 /home/pi/hsmm-pi/src/var/www/hsmm-pi/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-04-11 11:29:16 Error: [MissingControllerException] Controller class PowerSettingsController could not be found.
+Exception Attributes: array (
+  'class' => 'PowerSettingsController',
+  'plugin' => NULL,
+)
+Request URL: /hsmm-pi/PowerSettings
+Stack Trace:
+#0 /home/pi/hsmm-pi/src/var/www/hsmm-pi/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -135,10 +135,23 @@ $cakeDescription = __d('cake_dev', __('HSMM-Pi'));
        );
     ?>
 </li>
-<li <?php if (strstr($this->here, '/hsmm-pi/power_settings') != FALSE) { echo 'class="active"'; }  ?>>
-<?php echo $this->Html->link("<i class=\"icon-globe\"></i>&nbsp;".__('Power Save'),
+
+<li <?php if (strstr($this->here, '/hsmm-pi/location') != FALSE) { echo 'class="active"'; }  ?>>
+     <?php echo $this->Html->link("<i class=\"icon-globe\"></i>&nbsp;".__('Location'),
+     array(
+	   'controller' => 'location_settings',
+	   'action' => 'edit/1'
+	   ),
+       array(
+	     'escape' => false
+	     )
+       );
+     ?>
+</li>
+<li <?php if (strstr($this->here, '/hsmm-pi/network_services') != FALSE) { echo 'class="active"'; }  ?>>
+<?php echo $this->Html->link("<i class=\"icon-bullhorn\"></i>&nbsp;".__('Services'),
     array(
-   'controller' => 'PowerSettings',
+   'controller' => 'network_services',
    'action' => 'index',
    ),
     array(
